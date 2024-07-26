@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/18a45a892c.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo-16x16.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@400;900&family=Sacramento&display=swap"rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="container" id="Inicio">
+        <div class="banner">
+            <div class="heading">
+                <header>
+                    <h1>Moda<span class="title-yellow"><small>21</small></span></h1>
+                </header>
+                <span id="Abrir" class="fa-solid fa-bars btn-menu"></span>
+                <nav id="menu">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#Nosotros" class="barrers">Nosotros</a></li>
+                        <li><a href="#Catalogo" class="barrers">Catalogo</a></li>
+                        <li><a href="#Galeria" class="barrers">Galeria</a></li>
+                        <li><a href="#Testimonios" class="barrers">Testimonios</a></li>
+                        <li><a href="contacto.html" class="barrers"><span class="title-yellow">Contacto</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.1994783115238!2d-76.82271928551954!3d-11.99169199659321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105e9d72fb1bcd7%3A0xc6ee39c0cb1f29ca!2sPrincipal%2C%20Chaclacayo%2015476!5e0!3m2!1ses-419!2spe!4v1669093248620!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div style="background-image: url('img//fondonosotros.jpg');; width: 100%;margin-top: 80px; margin-bottom: 80px;">
+        <h2 style="text-align: center;">Contactanos</h2>
+    <form action="bd/formulario.php" method="POST">
+        <p>Nombre:</p>
+        <input type="text" class="field" name="nombre"> <br/>
+    
+        <p>Correo electrónico:</p>
+        <input type="text" class="field" name="correo"> <br/>
+    
+        <p>Asunto:</p>
+        <input type="text" class="field" name="asunto"> <br/>
+    
+        <p>Mensaje:</p>
+        <textarea class="field" name="mensaje"></textarea> <br/>
+    
+        <p class="center-content">
+            <input type="submit" class="btn btn-green" value="Enviar Datos">
+        </p>
+    
+    </form>
+    </div>
+
+    <footer class="social-footer" id="Contacto">
+        <div class="copy">
+            <span>© 2022 Moda21 | Política de Privacidad</span>
+        </div>
+        <div class="social-footer-icons">
+            <ul class="menu simple">
+                <li><a href="https://www.facebook.com/Moda21.Peru"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://api.whatsapp.com/send?phone=51902132938&app=facebook&entry_point=page_cta&fbclid=IwAR14-CScw4Ivnrv9VMX_bWu0D1fWj5gTYkEJDQg5gya71w2ZcgwXjR4vUi"><i
+                    class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
